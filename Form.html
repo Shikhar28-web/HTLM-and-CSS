@@ -1,0 +1,40 @@
+<head>
+    <style>
+        body{
+            background-color: rgb(164, 124, 197);
+        }
+    </style>
+</head>
+<body>
+    <table border="0">
+<center><h1>Registration Form </h1></center>
+
+<form><tr><td>Name:
+    <input type ="text" placeholder="Enter your name here" required></th></tr>
+<tr><td><br>Roll number:
+<input type="number" placeholder="Enter your Roll no. here " required></td></tr>
+<br><tr><td>Mobile No.
+<input type="number"  maxlength="10" pattern="\d{10}" placeholder="Enter your mobile number" required></td></tr>
+<tr><td>Email:
+<input typr="Email" placeholder="Enter your email here" required><br></td></tr>
+<tr><td><label for="password"></label>
+Password:
+<input type="Password" id="password"  placeholder="Enter your password here" required>
+</td></tr><br>
+<tr><td>Conform Password:
+<input type="Password" id="password"  placeholder="Enter your password here" required></td></tr>
+<br><tr><td>Enter your course name:
+<input type="text" placeholder="Enter your course name here"required></td></tr>
+<tr><td>Gender:<br>
+ <input type="radio" id="male" name="gender" value="male">
+ <label for="male">Male</label><br>
+ <input type="radio" id="female" name="gender" value="female">
+ <label for="female">Female</label><br></td></tr>
+ <tr><td>Programming language you like:<br>
+    <input type="checkbox" checked>Python<br>
+    <input type="checkbox" selected>Java<br>
+    <input type="checkbox">HTML<br></td></tr>
+    <tr><td><textarea name="comment" >Enter about you</textarea><br></td></tr> 
+    <tr><td><input type="reset">
+    <input type="submit"></td></tr>
+</form></body></table>
